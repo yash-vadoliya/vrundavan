@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "./vrundavan-logo.png";
-import { Link } from "react-router-dom";
 import "../components/style.css";
 
 function Header() {

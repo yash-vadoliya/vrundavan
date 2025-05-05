@@ -7,10 +7,10 @@ function AdminHeader() {
     return (
         <>
             <header className="container-fluid d-flex flex-column flex-md-row align-items-center justify-content-between py-3">
-    <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+    <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
         {/* Increased Logo Size */}
         <img src={logo} alt="Vrundavan" style={{ width: '80px', height: '80px' }} className="me-3 logo"></img>
-        <span className="fs-1" style={{textShadow: "0px 1px 0.5px teal"}}>Vrundavan DairyFarm</span>
+        <h1 className="fs-1" style={{textShadow: "0px 1px 0.5px teal"}}>Vrundavan DairyFarm</h1>
     </a>
 
     <ul className="nav nav-pills">

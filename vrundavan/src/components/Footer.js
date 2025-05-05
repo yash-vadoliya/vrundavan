@@ -67,7 +67,7 @@ function Footer () {
                                     className="text-decoration-none text-dark">
                                         vrundavandairyfarm@gmail.com
                                     </a>
-                                </li>
+                                </li>   
                             </ul>
 
                         </div>

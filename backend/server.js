@@ -1,13 +1,14 @@
 require ('dotenv').config();
 const express = require("express");
 const cors = require("cors");
-const sequelize = require("./db");
 const routes = require("./routes/api_routes");
-const twilio = require("./routes/invoice");
 const path = require("path");
 const bill = require("./routes/invoice");
 const HOST = '0.0.0.0';
 const PORT = process.env.PORT;
+
+const cors = require("cors");
+app.use(cors({ origin: "https://your-frontend.netlify.app" }));
 
 const app = express();
 app.use(cors());

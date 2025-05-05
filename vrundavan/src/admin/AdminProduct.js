@@ -44,7 +44,7 @@ function AdminProduct() {
                     console.error("Error fetching data:", err);
                 });
         }
-    }, [id]);
+    });
 
     const handleInputChange = (e) => {
         setData({ ...data, [e.target.name]: e.target.value });

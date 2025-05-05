@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import { Link } from 'react-router-dom';
-import { BrowserRouter as Router, Route, Routes, useLocation, Navigate } from 'react-router-dom';
+import { Route, Routes, useLocation, Navigate } from 'react-router-dom';
 import './App.css';
 
 // App Routes

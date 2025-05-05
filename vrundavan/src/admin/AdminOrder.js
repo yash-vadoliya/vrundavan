@@ -13,7 +13,7 @@ function AdminOrder() {
     const [orders, setOrders] = useState([]);
     const [searchDate, setSearchDate] = useState("");
     const [paymentStatus, setPaymentStatus] = useState("All");
-    const [confirmDelete, setConfirmDelete] = useState(false);
+    const [confirmDelete] = useState(false);
     const [currentPage, setCurrentPage] = useState(1);
     const recordsPerPage = 5;
     const [showFilter, setShowFilter] = useState(false);

@@ -60,7 +60,7 @@ function Home() {
 
             {/* Description Section */}
             <div className="my-5">
-                <div className="fs-2 text-justify p-4" style={{color: "#224e68", backgroundColor: "#B3DAF1" }}>
+                <div className="fs-2 text-justify p-4" style={{color: "#224e68", backgroundColor: "#98B9F2" }}>
                     <p>
                         <strong>Vrundavan Dairy Farm</strong>, located in Junagadh, Gujarat, is a well-established dairy farm known for its high-quality dairy products. We specialize in producing fresh milk, ghee, paneer, and other dairy items while maintaining the highest hygiene standards.
                     </p>

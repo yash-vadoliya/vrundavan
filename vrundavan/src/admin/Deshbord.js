@@ -73,6 +73,7 @@ function Deshbord() {
                     <h1>All Products</h1>
                 </div>
                 <div className="col-md-3">
+                    <label className="form-label">Filter by Name:</label>
                     <input
                         type="text"
                         className="form"
@@ -114,7 +115,7 @@ function Deshbord() {
                             currentRecords.map((list) => (
                                 <tr key={list.id}>
                                     <td>{list.product_name}</td>
-                                    <td>{list.description}</td>
+                                    <td>{list.description.length > 30 ? list.description.substring(0, 30) + '...' : list.description}</td>
                                     <td>{list.category}</td>
                                     <td>{list.price}</td>
                                     <td>{list.stock} {list.category === "Liquid Sweets" || list.product_name === "milk" ? "L" : "kg"}</td>
