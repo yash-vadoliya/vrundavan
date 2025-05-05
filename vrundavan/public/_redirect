@@ -1,1 +1,6 @@
-/*    /index.html   200
+cd vrundavan/public
+echo "/*    /index.html   200" > _redirects
+cd ../..
+git add vrundavan/public/_redirects
+git commit -m "Add Netlify _redirects for SPA routing"
+git push
